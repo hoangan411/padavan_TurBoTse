@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       target:
-        description: "Select router device"
+        description: "CR660x"
         required: true
         type: choice
         options:
